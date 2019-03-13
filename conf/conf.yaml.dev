@@ -1,0 +1,19 @@
+local:
+  file_path: "/Users/xxl/Develop/a.txt"
+  addr: "10.9.102.149"
+  port: 65065
+  thread_max: 1000
+  log_max_size: 128
+kafka: 
+  addr: ["10.9.88.85:9092","10.9.72.120:9092","10.9.86.27:9092"]
+  port: 9092
+  topic: "lzb_record"
+  pool_size: 200
+localfile:
+  path: ""
+  pool_size: 200
+database:
+  mongo:
+    addr: "10.9.102.149"
+    port: 27017
+    database: "lzb_record"
