@@ -19,4 +19,5 @@ func main() {
 	health.HealthRun()
 	//服务启动
 	server.TcpRpcStart()
+	
 }
